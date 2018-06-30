@@ -11,7 +11,7 @@ cp ./openbox/* ~/.config/openbox/
 cp ./tint2/* ~/.config/tint2/
 
 sudo apt install git
-git clone git@github.com:vinceliuice/vimix-icon-theme.git --depth=1
+git clone https://github.com/vinceliuice/vimix-icon-theme --depth=1
 cd vimix-icon-theme
 ./Installer.sh
 
