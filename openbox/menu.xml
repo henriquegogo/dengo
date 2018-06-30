@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="Execute">
+    <action name="Execute"><execute>gmrun</execute></action>
+  </item>
+  <separator />
+  <item label="Terminal">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+  <item label="Web">
+    <action name="Execute"><execute>x-www-browser</execute></action>
+  </item>
+  <item label="Files">
+    <action name="Execute"><execute>thunar</execute></action>
+  </item>
+  <separator />
+  <item label="Windows config">
+    <action name="Execute"><execute>obconf</execute></action>
+  </item>
+  <item label="Toolkit config">
+    <action name="Execute"><execute>lxappearance</execute></action>
+  </item>
+  <item label="Dock bar config">
+    <action name="Execute"><execute>tint2conf</execute></action>
+  </item>
+  <separator />
+  <item label="Reconfigure">
+    <action name="Reconfigure" />
+  </item>
+  <item label="Restart">
+    <action name="Restart" />
+  </item>
+  <separator />
+  <item label="Exit">
+    <action name="Exit" />
+  </item>
+</menu>
+
+</openbox_menu>
