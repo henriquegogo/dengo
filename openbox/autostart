@@ -2,5 +2,5 @@ xcompmgr &
 tint2 &
 volti &
 feh --bg-scale ~/Pictures/sunset.jpg &
-rofi -combi-modi window,drun,run -modi combi -key-combi Alt-F2 -bg "#111111" -fg "#FFFFFF" -opacity 92 -show-icons &
+rofi -combi-modi window,drun,run -modi combi -key-combi Alt-F2 -bg "#111111" -fg "#FFFFFF" -opacity 92 -show-icons -color-normal "#111111,#FFFFFF,#111111" -color-window "#111111,#111111" &
 synapse &
