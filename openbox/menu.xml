@@ -17,7 +17,7 @@
     <action name="Execute"><execute>x-www-browser</execute></action>
   </item>
   <item label="Files">
-    <action name="Execute"><execute>thunar</execute></action>
+    <action name="Execute"><execute>pcmanfm</execute></action>
   </item>
   <separator />
   <item label="Windows config">
