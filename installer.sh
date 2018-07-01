@@ -1,4 +1,4 @@
-sudo apt install xinit openbox tint2 feh volti
+sudo apt install xinit openbox xcompmgr tint2 feh volti
 sudo apt install thunar-archive-plugin thunar-gtkhash thunar-media-tags-plugin thunar-volman thunar-vcs-plugin tumbler-plugins-extra
 sudo apt install ffmpegthumbnailer ffmpegthumbs
 sudo apt install lxappearance lxterminal gmrun
