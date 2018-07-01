@@ -7,7 +7,7 @@
 
 <menu id="root-menu" label="Openbox 3">
   <item label="Execute">
-    <action name="Execute"><execute>gmrun</execute></action>
+    <action name="Execute"><execute>rofi -combi-modi window,drun,run -modi combi -bg "#111111" -fg "#FFFFFF" -opacity 92 -show-icons -show combi</execute></action>
   </item>
   <separator />
   <item label="Terminal">
