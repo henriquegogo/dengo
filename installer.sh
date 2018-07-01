@@ -1,7 +1,7 @@
 sudo apt install xinit openbox xcompmgr tint2 feh volti
 sudo apt install thunar-archive-plugin thunar-gtkhash thunar-media-tags-plugin thunar-volman thunar-vcs-plugin tumbler-plugins-extra
 sudo apt install ffmpegthumbnailer ffmpegthumbs
-sudo apt install lxappearance lxterminal gmrun
+sudo apt install lxappearance lxterminal gmrun synapse
 sudo apt install dmz-cursor-theme numix-gtk-theme fonts-cantarell fonts-noto
 
 mkdir ~/.config/openbox
