@@ -1,3 +1,4 @@
+sudo apt update
 sudo apt install xinit openbox xcompmgr tint2 feh volti -y
 sudo apt install lxappearance lxterminal pcmanfm rofi synapse -y
 sudo apt install dmz-cursor-theme numix-gtk-theme fonts-cantarell fonts-noto -y
