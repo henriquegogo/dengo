@@ -4,6 +4,7 @@ sudo apt install ffmpegthumbnailer ffmpegthumbs
 sudo apt install lxappearance lxterminal rofi synapse
 sudo apt install dmz-cursor-theme numix-gtk-theme fonts-cantarell fonts-noto
 
+mkdir ~/.config
 mkdir ~/.config/openbox
 mkdir ~/.config/tint2
 mkdir ~/.config/synapse
