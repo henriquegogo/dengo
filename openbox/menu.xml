@@ -23,9 +23,6 @@
   <item label="Windows config">
     <action name="Execute"><execute>obconf</execute></action>
   </item>
-  <item label="Toolkit config">
-    <action name="Execute"><execute>lxappearance</execute></action>
-  </item>
   <item label="Dock bar config">
     <action name="Execute"><execute>tint2conf</execute></action>
   </item>
