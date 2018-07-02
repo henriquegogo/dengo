@@ -6,10 +6,6 @@
                 file:///usr/share/openbox/menu.xsd">
 
 <menu id="root-menu" label="Openbox 3">
-  <item label="Execute">
-    <action name="Execute"><execute>rofi -combi-modi window,drun,run -modi combi -bg "#111111" -fg "#FFFFFF" -opacity 92 -show-icons -color-normal "#111111,#FFFFFF,#111111" -color-window "#111111,#111111" -show combi</execute></action>
-  </item>
-  <separator />
   <item label="Terminal">
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
   </item>
