@@ -321,7 +321,7 @@
     <!-- Keybindings for running applications -->
     <keybind key="A-F2">
       <action name="Execute">
-        <command>rofi -combi-modi window,drun,run -modi combi -bg "#111111" -fg "#FFFFFF" -opacity 92 -show-icons -color-normal "#111111,#FFFFFF,#111111" -color-window "#111111,#111111" -show combi</command>
+        <command>rofi -combi-modi window,drun,run -modi combi -bg "#111111" -fg "#FFFFFF" -opacity 92 -show-icons -color-normal "#111111,#FFFFFF,#111111,#586E75,#FFFFFF" -color-window "#111111,#111111" -show combi</command>
       </action>
     </keybind>
     <keybind key="C-A-t">
