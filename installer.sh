@@ -1,7 +1,7 @@
 sudo apt update
 sudo apt install xinit openbox xcompmgr tint2 feh volti -y
 sudo apt install lxterminal pcmanfm rofi synapse -y
-sudo apt install dmz-cursor-theme numix-gtk-theme fonts-cantarell fonts-noto-hinted -y
+sudo apt install dmz-cursor-theme numix-gtk-theme fonts-cantarell fonts-noto-hinted fonts-noto-mono -y
 
 mkdir ~/.config
 mkdir ~/.config/openbox
