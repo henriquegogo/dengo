@@ -10,6 +10,7 @@ mkdir ~/.config/synapse
 mkdir ~/.config/gtk-3.0
 mkdir ~/.config/lxterminal
 mkdir ~/Pictures
+mkdir -p ~/.local/share/applications
 
 cp ./openbox/* ~/.config/openbox/
 cp ./tint2/* ~/.config/tint2/
@@ -18,6 +19,7 @@ cp ./lxterminal/* ~/.config/lxterminal/
 cp ./gtk-3.0/* ~/.config/gtk-3.0/
 cp ./_gtkrc-2.0 ~/.gtkrc-2.0
 cp ./sunset.jpg ~/Pictures/
+cp ./applications/launcher.desktop ~/.local/share/applications/
 
 sudo apt install git -y
 git clone https://github.com/vinceliuice/vimix-icon-theme --depth=1
