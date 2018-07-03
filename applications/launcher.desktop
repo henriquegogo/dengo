@@ -5,4 +5,4 @@ Categories=System;
 Exec=synapse
 Terminal=false
 Type=Application
-Icon=system-software-install
+Icon=launcher.png
