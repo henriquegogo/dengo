@@ -5,7 +5,7 @@ echo "#####################"
 echo; echo ">>> Updating packages list"
 sudo apt update
 echo; echo ">>> Installing essential environment packages"
-sudo apt install xinit openbox xcompmgr tint2 feh volti -y
+sudo apt install xinit dbus-x11 openbox xcompmgr tint2 feh volti -y
 echo; echo ">>> Installing usability applications"
 sudo apt install lxterminal pcmanfm rofi synapse -y
 echo; echo ">>> Installing fonts and icons"
