@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Launcher
-Comment=Launch applications
-Categories=System;
-Exec=synapse
-Terminal=false
-Type=Application
-Icon=launcher.png

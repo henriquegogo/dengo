@@ -7,20 +7,13 @@
 
 <menu id="root-menu" label="Openbox 3">
   <item label="Terminal">
-    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+    <action name="Execute"><execute>lxterminal</execute></action>
   </item>
   <item label="Web">
     <action name="Execute"><execute>x-www-browser</execute></action>
   </item>
   <item label="Files">
     <action name="Execute"><execute>pcmanfm</execute></action>
-  </item>
-  <separator />
-  <item label="Windows config">
-    <action name="Execute"><execute>obconf</execute></action>
-  </item>
-  <item label="Dock bar config">
-    <action name="Execute"><execute>tint2conf</execute></action>
   </item>
   <separator />
   <item label="Reconfigure">
