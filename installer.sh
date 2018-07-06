@@ -16,6 +16,7 @@ mkdir -p ~/.icons
 mkdir -p ~/.config/openbox
 mkdir -p ~/.config/tint2
 mkdir -p ~/.config/lxterminal
+mkdir -p ~/.config/gtk-3.0
 mkdir -p ~/Pictures
 echo "OK!"
 
@@ -23,6 +24,7 @@ echo; echo ">>> Coping files"
 cp ./openbox/* ~/.config/openbox/
 cp ./tint2/* ~/.config/tint2/
 cp ./lxterminal/* ~/.config/lxterminal/
+cp ./gtk-3.0/* ~/.config/gtk-3.0/
 cp ./_gtkrc-2.0 ~/.gtkrc-2.0
 cp ./sunset.jpg ~/Pictures/
 echo "OK!"
