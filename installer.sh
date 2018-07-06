@@ -5,7 +5,7 @@ echo "#####################"
 echo; echo ">>> Updating packages list"
 sudo apt update
 echo; echo ">>> Installing essential environment packages"
-sudo apt install xinit dbus openbox tint2 feh volti -y
+sudo apt install xinit dbus openbox tint2 feh volti wicd -y
 echo; echo ">>> Installing usability applications"
 sudo apt install lxterminal pcmanfm dmenu -y
 echo; echo ">>> Installing fonts and icons"
