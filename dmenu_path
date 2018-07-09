@@ -1,0 +1,2 @@
+#!/bin/bash
+sort <(ls /usr/bin) <(ls /usr/share/applications | awk -F '.desktop' ' { print $1}') <(ls ~/.local/bin) <(ls ~/.local/share/applications | awk -F '.desktop' ' { print $1}') | uniq -d
