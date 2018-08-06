@@ -5,7 +5,7 @@ echo "#####################"
 echo; echo ">>> Updating packages list"
 sudo apt update
 echo; echo ">>> Installing builder packages"
-sudo apt install build-essential make libx11-dev libxft-dev -y
+sudo apt install build-essential make libx11-dev libxft-dev libxinerama-dev -y
 echo; echo ">>> Installing essential environment packages"
 sudo apt install xinit dbus dwm dmenu wmctrl feh wicd scrot -y
 echo; echo ">>> Installing fonts and icons"
