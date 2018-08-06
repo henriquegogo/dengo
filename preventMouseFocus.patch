@@ -1,0 +1,12 @@
+--- dwm.c
++++ dwm.c
+@@ -248,7 +248,7 @@
+        [ConfigureRequest] = configurerequest,
+        [ConfigureNotify] = configurenotify,
+        [DestroyNotify] = destroynotify,
+-       [EnterNotify] = enternotify,
++       //[EnterNotify] = enternotify,
+        [Expose] = expose,
+        [FocusIn] = focusin,
+        [KeyPress] = keypress,
+
