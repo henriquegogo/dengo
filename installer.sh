@@ -26,6 +26,6 @@ echo "OK!"
 echo; echo ">>> Downloading Vimix icon theme"
 wget https://github.com/vinceliuice/vimix-icon-theme/archive/master.zip -O vimix.zip
 echo; echo ">>> Unzip Vimix icon theme"
-unzip vimix.zip
+unzip vimix.zip > /dev/null
 echo; echo ">>> Coping Vimix icon theme"
 cp -r vimix-icon-theme-master ~/.icons
