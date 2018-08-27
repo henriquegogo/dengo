@@ -10,17 +10,8 @@
 "dmenu_run -p Run: -l 8"
   Alt + F2
 
-"wmctrl -a $(wmctrl -l | cut -c $((${#HOSTNAME}+19))- | dmenu -p Window -l 4)"
+"wmctrl -a $(wmctrl -l | cut -c $((${#HOSTNAME}+19))- | dmenu -p Window -l 8)"
   Mod4 + Tab
-
-"wmctrl -r :ACTIVE: -e 0,0,19,1364,747"
-  Mod4 + Up
-
-"wmctrl -r :ACTIVE: -e 0,0,19,686,747"
-  Mod4 + Left
-
-"wmctrl -r :ACTIVE: -e 0,687,19,677,747"
-  Mod4 + Right
 
 "amixer set Master 3+"
   XF86AudioRaiseVolume
@@ -35,7 +26,7 @@
   Alt + Print
 
 "slock"
-  Mod4 + l
-
-"slock"
   Control+Alt + l
+
+"pkill evilwm"
+  Control+Alt + Delete
