@@ -1,0 +1,41 @@
+# To specify a key, you can use 'xbindkeys --key'
+#
+# List of modifier:
+#   Release, Control, Shift, Mod1 (Alt), Mod2 (NumLock),
+#   Mod3 (CapsLock), Mod4, Mod5 (Scroll).
+
+"x-terminal-emulator"
+  Control+Alt + t
+
+"dmenu_run -p Run: -l 8"
+  Alt + F2
+
+"wmctrl -a $(wmctrl -l | cut -c $((${#HOSTNAME}+16))- | dmenu -p Window -l 4)"
+  Alt + Tab
+
+"wmctrl -r :ACTIVE: -e 0,0,19,1364,747"
+  Mod4 + Up
+
+"wmctrl -r :ACTIVE: -e 0,0,19,686,747"
+  Mod4 + Left
+
+"wmctrl -r :ACTIVE: -e 0,687,19,677,747"
+  Mod4 + Right
+
+"amixer set Master 3+"
+  XF86AudioRaiseVolume
+
+"amixer set Master 3-"
+  XF86AudioLowerVolume
+
+"scrot"
+  Print
+
+"scrot -s"
+  Alt + Print
+
+"slock"
+  Mod4 + l
+
+"slock"
+  Control+Alt + l
