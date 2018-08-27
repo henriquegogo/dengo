@@ -42,6 +42,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[]   = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbordercolor, "-sf", selfgcolor, "-p", "Run:", "-l", "8", NULL };
 static const char *termcmd[]    = { "x-terminal-emulator", NULL };
+static const char *roficmd[]    = { "rofi", "-combi-modi", "window,drun,run", "-modi", "combi", "-bg", "#111111", "-fg", "#FFFFFF", "-opacity", "92", "-show-icons", "-color-normal", "#111111,#FFFFFF,#111111,#586E75,#FFFFFF", "-color-window", "#111111,#111111", "-show", "combi", NULL };
 
 static const char *upvol[]   = { "amixer", "set", "Master", "3+", NULL };
 static const char *downvol[] = { "amixer", "set", "Master", "3-", NULL };
@@ -56,6 +57,8 @@ static const char *resizemove_right[] = { "wmctrl", "-r", ":ACTIVE:", "-e", "0,6
 static Key keys[] = {
   /* modifier                     key        function        argument */
   { ALTKEY|ControlMask,           XK_t,      spawn,          {.v = termcmd } },
+  { SUPERKEY,                     XK_Tab,    spawn,          {.v = roficmd } },
+  { SUPERKEY,                     XK_space,  spawn,          {.v = roficmd } },
   { ControlMask,                  XK_space,  spawn,          {.v = dmenucmd } },
   { ALTKEY,                       XK_F2,     spawn,          {.v = dmenucmd } },
   { ALTKEY,                       XK_Tab,    focusstack,     {.i = +1 } },
