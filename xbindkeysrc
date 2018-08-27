@@ -10,8 +10,8 @@
 "dmenu_run -p Run: -l 8"
   Alt + F2
 
-"wmctrl -a $(wmctrl -l | cut -c $((${#HOSTNAME}+16))- | dmenu -p Window -l 4)"
-  Alt + Tab
+"wmctrl -a $(wmctrl -l | cut -c $((${#HOSTNAME}+19))- | dmenu -p Window -l 4)"
+  Mod4 + Tab
 
 "wmctrl -r :ACTIVE: -e 0,0,19,1364,747"
   Mod4 + Up

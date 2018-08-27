@@ -1,0 +1,6 @@
+xrdb -merge ~/.Xresources
+
+feh --bg-scale ~/Pictures/sunset.jpg &
+xbindkeys &
+xsetroot -cursor_name left_ptr
+exec evilwm -fg "#888888" -bg "#000000"
