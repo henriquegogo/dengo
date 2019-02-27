@@ -5,7 +5,7 @@ echo "#####################"
 echo; echo ">>> Updating packages list"
 sudo apt update
 echo; echo ">>> Installing essential environment packages"
-sudo apt install xinit x11-xserver-utils dbus evilwm dmenu wmctrl xbindkeys feh wicd scrot wget unzip -y
+sudo apt install xinit x11-xserver-utils dbus evilwm dmenu wmctrl xbindkeys feh wicd xarchiver scrot wget unzip -y
 echo; echo ">>> Installing fonts and icons"
 sudo apt install numix-gtk-theme dmz-cursor-theme fonts-symbola fonts-cantarell fonts-noto-hinted fonts-noto-mono xfonts-75dpi xfonts-100dpi xfonts-terminus -y
 
