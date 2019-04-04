@@ -1,5 +1,4 @@
-feh --bg-fill ~/Pictures/sunset.jpg &
-xrdb -merge ~/.Xresources
+feh --bg-scale ~/Pictures/sunset.jpg &
 xbindkeys
 xsetroot -cursor_name left_ptr
 exec evilwm
