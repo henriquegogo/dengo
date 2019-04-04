@@ -11,7 +11,7 @@ sudo apt install evilwm -y
 echo; echo ">>> Installing fonts and icons"
 sudo apt install numix-gtk-theme dmz-cursor-theme fonts-symbola fonts-cantarell fonts-noto-hinted fonts-noto-mono xfonts-75dpi xfonts-100dpi xfonts-terminus -y
 echo; echo ">>> Installing applications"
-sudo apt install lxterminal pcmanfm wicd xarchiver -y
+sudo apt install lxterminal pcmanfm wicd xarchiver galculator -y
 
 echo; echo ">>> Creating folders"
 mkdir -p ~/.icons
