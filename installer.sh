@@ -34,3 +34,5 @@ echo; echo ">>> Unzip Vimix icon theme"
 unzip vimix.zip > /dev/null
 echo; echo ">>> Coping Vimix icon theme"
 cp -r vimix-icon-theme-master/Paper-Vimix ~/.icons
+echo; echo ">>> Removing Vimix installer files"
+rm vimix* -rf

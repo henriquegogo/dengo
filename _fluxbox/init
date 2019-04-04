@@ -71,5 +71,5 @@ session.colorsPerChannel:	4
 session.keyFile:	~/.fluxbox/keys
 session.cacheMax:	200
 session.doubleClickInterval:	250
-session.styleFile:	/home/henrique/.fluxbox/styles/VimixDark
+session.styleFile:	/home/henrique/.fluxbox/styles/Dengo
 session.styleOverlay:	/home/henrique/.fluxbox/overlay
