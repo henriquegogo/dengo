@@ -23,7 +23,7 @@ echo "OK!"
 echo; echo ">>> Coping files"
 cp ./gtk-3.0/* ~/.config/gtk-3.0/
 cp ./_gtkrc-2.0 ~/.gtkrc-2.0
-cp ./sunset.jpg ~/Pictures/
+cp ./*.jpg ~/Pictures/
 cp ./lxterminal.conf ~/.config/lxterminal/
 cp ./evilwmrc ~/.evilwmrc
 cp ./xbindkeysrc ~/.xbindkeysrc
