@@ -1,4 +1,5 @@
-fg #888888
+fg #000000
 bg #000000
 snap 10
 mask1 mod4
+bw 2
