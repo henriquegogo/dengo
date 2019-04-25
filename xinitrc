@@ -1,4 +1,4 @@
-feh --bg-scale ~/Pictures/mountains.jpg &
+feh --bg-scale ~/Pictures/mountains.jpg
 xbindkeys
 xsetroot -cursor_name left_ptr
 xcompmgr -c &
