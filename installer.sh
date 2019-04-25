@@ -8,7 +8,7 @@ sudo apt install xinit x11-xserver-utils dbus dmenu xbindkeys xcompmgr feh scrot
 echo; echo ">>> Installing window manager"
 sudo apt install evilwm -y
 echo; echo ">>> Installing fonts and icons"
-sudo apt install numix-gtk-theme papirus-icon-theme dmz-cursor-theme fonts-symbola fonts-cantarell fonts-noto-hinted fonts-noto-mono xfonts-75dpi xfonts-100dpi xfonts-terminus -y
+sudo apt install arc-theme papirus-icon-theme dmz-cursor-theme fonts-symbola fonts-cantarell fonts-noto-hinted fonts-noto-mono xfonts-75dpi xfonts-100dpi xfonts-terminus -y
 echo; echo ">>> Installing applications"
 sudo apt install lxterminal pcmanfm wicd xarchiver galculator -y
 
