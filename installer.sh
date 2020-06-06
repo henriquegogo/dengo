@@ -29,8 +29,10 @@ sudo apt install make gcc libx11-dev -y
 echo; echo ">>> Downloading window manager"
 wget https://github.com/henriquegogo/weema/archive/master.zip -O weema.zip
 unzip weema.zip
+cd weema-master/
 echo; echo ">>> Building window manager"
 make
 echo; echo ">>> Installing window manager"
 sudo make install
+cd ..
 echo "OK!"
