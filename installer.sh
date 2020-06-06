@@ -4,7 +4,7 @@ echo "#####################"
 echo; echo ">>> Updating packages list"
 sudo apt update
 echo; echo ">>> Installing essential environment packages"
-sudo apt install xinit x11-xserver-utils dbus dmenu xdotool feh scrot wget unzip -y
+sudo apt install xinit x11-xserver-utils dbus dmenu xdotool feh scrot wget unzip bash-completion -y
 echo; echo ">>> Installing window manager"
 #sudo apt install weema -y
 echo "Window manager isn't in repo. Please install manually"
@@ -20,10 +20,17 @@ echo "OK!"
 echo; echo ">>> Coping files"
 cp ./_gtkrc-2.0 ~/.gtkrc-2.0
 cp ./wallpaper.jpg ~/
+cp ./xinitrc ~/.xinitrc
 cp -r ./_config/* ~/.config
 echo "OK!"
 
-echo; echo ">>> Window manager instructions"
-echo "Download https://github.com/henriquegogo/weema"
-echo "Install build-essential and libx11-dev"
-echo "Run make and sudo make install"
+echo; echo ">>> Installing build apps for window manager"
+sudo apt install make gcc libx11-dev -y
+echo; echo ">>> Downloading window manager"
+wget https://github.com/henriquegogo/weema/archive/master.zip -O weema.zip
+unzip weema.zip
+echo; echo ">>> Building window manager"
+make
+echo; echo ">>> Installing window manager"
+sudo make install
+echo "OK!"
