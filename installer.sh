@@ -11,7 +11,7 @@ echo "Window manager isn't in repo. Please install manually"
 echo; echo ">>> Installing fonts and icons"
 sudo apt install arc-theme papirus-icon-theme dmz-cursor-theme fonts-symbola fonts-cantarell fonts-noto-hinted fonts-noto-mono xfonts-75dpi xfonts-100dpi xfonts-terminus -y
 echo; echo ">>> Installing applications"
-sudo apt install lxterminal pcmanfm wicd pavucontrol xarchiver galculator -y
+sudo apt install lxterminal pcmanfm lxrandr wicd pavucontrol xarchiver galculator -y
 
 echo; echo ">>> Creating folders"
 mkdir -p ~/.config
